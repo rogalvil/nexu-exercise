@@ -21,7 +21,7 @@ RSpec.describe BrandsController, type: :request do
   describe 'POST /brands' do
     context 'with valid attributes' do
       it 'creates a new car model' do
-        post "/brands/#{brand.id}/car_models", params: { car_model: valid_attributes }
+        post "/brands/#{brand.id}/models", params: { car_model: valid_attributes }
         expect(response).to have_http_status(:created)
         expect(json['name']).to eq(valid_attributes[:name])
         expect(json['average_price'].to_f.round(2)).to eq(valid_attributes[:average_price].to_f.round(2))
