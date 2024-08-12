@@ -82,5 +82,8 @@ end
 gem 'drb', '2.2.0'
 gem 'minitest', '5.20.0'
 
+# Fix issue on deployment
+gem 'net-pop', '0.1.2'
+
 # Use Active Model Serializers for JSON serialization
 gem 'active_model_serializers', '~> 0.10.14'
