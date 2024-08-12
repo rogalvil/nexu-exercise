@@ -1,7 +1,7 @@
 ## IMPORTANT: RUN THIS AFTER CREATING THE REPO FROM THE TEMPLATE!!!
 
 Once you've created this repository from the
-['rogalvil/rails-api-docker-vscode'](https://github.com/rogalvil/rails-api-docker-vscode)
+['rogalvil/nexu-exercise'](https://github.com/rogalvil/nexu-exercise)
 template, please run this script inside Visual Studio Code Dev Container - or if
 you have rails installed in the host, you can do it directly:
 
