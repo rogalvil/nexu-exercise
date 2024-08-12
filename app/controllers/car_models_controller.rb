@@ -49,6 +49,6 @@ class CarModelsController < ApplicationController
   end
 
   def car_model_params
-    params.require(:car_model).permit(:average_price)
+    params.require(:car_model).permit(:name, :average_price)
   end
 end
