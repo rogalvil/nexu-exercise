@@ -34,3 +34,6 @@
 
 # Files created by Mac OS X Finder.
 .DS_Store
+
+# Coverage files
+/coverage/

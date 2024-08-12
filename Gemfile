@@ -78,5 +78,9 @@ group :test do
   gem 'simplecov', '~> 0.22.0', require: false
 end
 
+# Fix ambiguous gems on container
+gem 'drb', '2.2.0'
+gem 'minitest', '5.20.0'
+
 # Use Active Model Serializers for JSON serialization
 gem 'active_model_serializers', '~> 0.10.14'
