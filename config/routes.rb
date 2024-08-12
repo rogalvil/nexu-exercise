@@ -2,7 +2,7 @@
 
 # Routes
 Rails.application.routes.draw do
-  resources :brands, only: %i[index show create] do
+  resources :brands, only: %i[index create] do
     resources :car_models, only: %i[index create]
   end
 
