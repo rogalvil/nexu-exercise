@@ -180,3 +180,11 @@ docker-compose down development
 ```
 
 By following these steps, you should be able to set up and run the project using Docker.
+
+## Endpoints
+
+The API are deployed in Render and you can access the endpoints using the following URL:
+
+```
+https://nexu-exercise.onrender.com/
+```
